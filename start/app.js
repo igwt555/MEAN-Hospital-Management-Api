@@ -18,7 +18,11 @@ const providers = [
   '@adonisjs/auth/providers/AuthProvider',
   '@adonisjs/validator/providers/ValidatorProvider',
   '@adonisjs/mail/providers/MailProvider',
-
+  '@adonisjs/framework/providers/ViewProvider',
+  '@adonisjs/lucid-slugify/providers/SlugifyProvider',
+  'adonis-throttle/providers/ThrottleProvider',
+  '@adonisjs/session/providers/SessionProvider',
+  '@adonisjs/shield/providers/ShieldProvider',
 ];
 
 /*
